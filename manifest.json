@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Adaptable Homepage",
+    "version": "1.0",
+    "chrome_url_overrides": {
+        "newtab": "home.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "data_collection_permissions": {
+                "required": ["none"],
+                "optional": []
+            }
+        }
+    }
+}
